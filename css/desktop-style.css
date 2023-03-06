@@ -1,0 +1,10 @@
+@media screen and (min-width:769px) {
+  /* HEADER */
+  header .mobile-nav{
+    display: none;
+  }
+
+  header .desktop-nav{
+    display: flex;
+  }
+}
