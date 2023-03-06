@@ -1,12 +1,12 @@
 @media screen and (min-width:768px) {
   /* MAIN */
-    /* OVERVIEW SECTION */
-    main .overview .column:first-child{
+    /* FEATURES SECTION */
+    main .features .column:first-child{
       width: 65%;
     }
 
-    main .overview .column{
+    main .features .column{
       width: 30%;
     }
-    /* /OVERVIEW SECTION */
+    /* /FEATURES SECTION */
 }

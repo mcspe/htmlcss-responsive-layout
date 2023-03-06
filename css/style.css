@@ -5,22 +5,37 @@ header .desktop-nav{
 
 
 /* MAIN */
-  /* OVERVIEW SECTION */
-  main .overview .row{
+  /* FEATURES SECTION */
+  main .features .row{
     flex-wrap: wrap;
     padding: 20px 0;
   }
 
-  main .overview .column{
+  main .features .column{
     width: 100%;
   }
 
-  main .overview .card{
+  main .features .card{
     padding: 20px;
   }
 
-  main .overview .main-card,
-  main .overview .main-card .card-txt{
+  main .features .main-card,
+  main .features .main-card .card-txt{
     flex-direction: column;
   }
-  /* /OVERVIEW SECTION */
+  /* /FEATURES SECTION */
+
+  /* PLANNING SECTION */
+  main .planning .card{
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  main .planning .card-img,
+  main .planning .card-txt{
+    width: 100%;
+  }
+  /* /PLANNING SECTION */
+
+  /* TESTIMONIALS SECTION */
+  /* /TESTIMONIALS SECTION */

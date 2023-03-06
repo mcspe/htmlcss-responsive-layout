@@ -8,14 +8,25 @@
     display: flex;
   }
   /* MAIN */
-    /* OVERVIEW SECTION */
-    main .overview .main-card{
+    /* FEATURES SECTION */
+    main .features .main-card{
       flex-direction: row;
     }
 
-    main .overview .main-card .card-txt,
-    main .overview .main-card .card-img{
+    main .features .main-card .card-txt,
+    main .features .main-card .card-img{
       width: 50%;
     }
-    /* /OVERVIEW SECTION */
+    /* /FEATURES SECTION */
+
+    /* PLANNING SECTION */
+    main .planning .row{
+      display: flex;
+      padding: 0 10%;
+    }
+
+    main .planning .col{
+      width: 50%;
+    }
+    /* /PLANNING SECTION */
 }
