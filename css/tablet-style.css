@@ -33,4 +33,11 @@
     /* /ABOUT US SECTION */
   /* MAIN */
 
+  /* FOOTER */
+    footer .container .foot-content{
+      padding: 0 10%;
+    }
+    /* CTA SECTION */
+    /* /CTA SECTION */
+  /* /FOOTER */
 }
