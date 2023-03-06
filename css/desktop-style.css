@@ -29,4 +29,10 @@
       width: 50%;
     }
     /* /PLANNING SECTION */
+
+    /* BENEFIT SECTION */
+    main .benefit .column{
+      width: calc(100% / 3);
+    }
+    /* /BENEFIT SECTION */
 }
