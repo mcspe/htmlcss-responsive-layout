@@ -1,25 +1,36 @@
 @media screen and (min-width:768px) {
   /* MAIN */
     /* FEATURES SECTION */
-    main .features .column:first-child{
-      width: 65%;
-    }
+      main .features .column:first-child{
+        width: 65%;
+      }
 
-    main .features .column{
-      width: 30%;
-    }
+      main .features .column{
+        width: 30%;
+      }
     /* /FEATURES SECTION */
 
     /* TESTIMONIALS SECTION */
-    main .testimonial .card{
-      flex-direction: row;
-    }
+      main .testimonial .card{
+        flex-direction: row;
+      }
     /* /TESTIMONIALS SECTION */
 
     /* BENEFIT SECTION */
-    main .benefit .column{
-      width: 50%;
-    }
+      main .benefit .column{
+        width: 47.5%;
+      }
     /* /BENEFIT SECTION */
+
+    /* ABOUT US SECTION */
+      main .about-us .column:first-child{
+        width: 60%;
+      }
+
+      main .about-us .column:last-child{
+        width: 40%;
+      }
+    /* /ABOUT US SECTION */
+  /* MAIN */
 
 }

@@ -5,59 +5,51 @@ header .desktop-nav{
 
 
 /* MAIN */
-  /* FEATURES SECTION */
-  main .features .row{
+  main .features .row,
+  main .benefit .row,
+  main .about-us .row{
     flex-wrap: wrap;
     padding: 20px 0;
   }
 
-  main .features .column{
+  main .features .column,
+  main .benefit .column,
+  main .about-us .column{
     width: 100%;
   }
 
-  main .features .card{
-    padding: 20px;
-  }
-
-  main .features .main-card,
-  main .features .main-card .card-txt{
-    flex-direction: column;
-  }
-  /* /FEATURES SECTION */
-
-  /* PLANNING SECTION */
-  main .planning .card{
-    flex-direction: column;
-    padding: 20px 0;
-  }
-
-  main .planning .card-img,
-  main .planning .card-txt{
-    width: 100%;
-  }
-  /* /PLANNING SECTION */
-
-  /* TESTIMONIALS SECTION */
-  main .testimonial .title{
-    margin-top: 30px;
-  }
-  /* /TESTIMONIALS SECTION */
-
-  /* BENEFIT SECTION */
-  main .benefit h2{
-    margin: 30px 0;
-  }
-
-  main .benefit .row{
-    flex-wrap: wrap;
-    padding: 20px 0;
-  }
-
-  main .benefit .column{
-    width: 100%;
-  }
-
+  main .features .card,
   main .benefit .card{
     padding: 20px;
   }
+
+  /* FEATURES SECTION */
+    main .features .main-card,
+    main .features .main-card .card-txt{
+      flex-direction: column;
+    }
+  /* /FEATURES SECTION */
+
+  /* PLANNING SECTION */
+    main .planning .card{
+      flex-direction: column;
+      padding: 20px 0;
+    }
+
+    main .planning .card-img,
+    main .planning .card-txt{
+      width: 100%;
+    }
+  /* /PLANNING SECTION */
+
+  /* TESTIMONIALS SECTION */
+    main .testimonial .title{
+      margin-top: 30px;
+    }
+  /* /TESTIMONIALS SECTION */
+
+  /* BENEFIT SECTION */
+    main .benefit h2{
+      margin: 30px 0;
+    }
   /* /BENEFIT SECTION */
