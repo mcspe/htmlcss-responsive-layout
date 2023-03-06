@@ -1,4 +1,4 @@
-@media screen and (min-width:769px) {
+@media screen and (min-width:1024px) {
   /* HEADER */
   header .mobile-nav{
     display: none;
@@ -7,4 +7,15 @@
   header .desktop-nav{
     display: flex;
   }
+  /* MAIN */
+    /* OVERVIEW SECTION */
+    main .overview .main-card{
+      flex-direction: row;
+    }
+
+    main .overview .main-card .card-txt,
+    main .overview .main-card .card-img{
+      width: 50%;
+    }
+    /* /OVERVIEW SECTION */
 }

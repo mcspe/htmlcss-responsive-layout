@@ -15,11 +15,11 @@ img{
 
 /* DEBUG */
 .debug{
-  background-color: rgba(0, 128, 0, .3);
+  background-color: rgba(0, 128, 0, .2);
   min-width: 100px;
   min-height: 100px;
   border: 1px dashed black;
-  
+  font-weight: 900;
 }
 
 .box-debug{
@@ -31,8 +31,9 @@ img{
 /* CONTAINERS */
 .container{
   width: 100%;
-  max-width: 1140px;
+  max-width: 1180px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* DISPLAY FLEX */

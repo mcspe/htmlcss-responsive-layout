@@ -2,3 +2,25 @@
 header .desktop-nav{
   display: none;
 }
+
+
+/* MAIN */
+  /* OVERVIEW SECTION */
+  main .overview .row{
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+
+  main .overview .column{
+    width: 100%;
+  }
+
+  main .overview .card{
+    padding: 20px;
+  }
+
+  main .overview .main-card,
+  main .overview .main-card .card-txt{
+    flex-direction: column;
+  }
+  /* /OVERVIEW SECTION */
