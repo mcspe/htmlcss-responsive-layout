@@ -90,9 +90,18 @@
   /* /FEATURES SECTION */
 
   /* PLANNING SECTION */
+    main .planning{
+      background-color: #9792E4;
+    }
+    
     main .planning .card{
       flex-direction: column;
       padding: 20px 0;
+    }
+
+    main .planning .col:last-child .card{
+      background-color: white;
+      border-radius: 30px;
     }
 
     main .planning .card-img,
