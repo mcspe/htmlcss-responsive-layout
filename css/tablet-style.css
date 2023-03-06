@@ -2,11 +2,11 @@
   /* MAIN */
     /* FEATURES SECTION */
       main .features .column:first-child{
-        width: 65%;
+        width: 66%;
       }
 
       main .features .column{
-        width: 30%;
+        width: 32%;
       }
     /* /FEATURES SECTION */
 

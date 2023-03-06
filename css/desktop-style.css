@@ -19,6 +19,10 @@
       main .features .main-card .card-img{
         width: 50%;
       }
+
+      main .features .card-img{
+        right: -40px;
+      }
     /* /FEATURES SECTION */
 
     /* PLANNING SECTION */
