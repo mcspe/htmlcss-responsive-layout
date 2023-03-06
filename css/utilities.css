@@ -1,0 +1,115 @@
+/* UTILITIES E REGOLE GENERALI */
+
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+/* IMMAGINI */
+img{
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* DEBUG */
+.debug{
+  background-color: rgba(0, 128, 0, .4);
+  min-width: 100px;
+  min-height: 100px;
+  border: 1px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTAINERS */
+.container{
+  width: 95%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* DISPLAY FLEX */
+.d-flex{
+  display: flex;
+}
+
+.d-flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.fl-j-start{
+  justify-content: flex-start;
+}
+
+.fl-j-center{
+  justify-content: center;
+}
+
+.fl-j-end{
+  justify-content: flex-end;
+}
+
+.fl-j-between{
+  justify-content: space-between;
+}
+
+.fl-a-center{
+  align-items: center;
+}
+
+.fl-a-start{
+  align-items: flex-start;
+}
+
+/* MARGINI */
+.m-b15{
+  margin-bottom: 15px;
+}
+
+.m-b20{
+  margin-bottom: 20px;
+}
+
+.m-b30{
+  margin-bottom: 30px;
+}
+
+.m-b40{
+  margin-bottom: 40px;
+}
+
+.m-r5{
+  margin-right: 5px;
+}
+
+.m-r10{
+  margin-right: 10px;
+}
+
+.m-r20{
+  margin-right: 20px;
+}
+
+.m-r30{
+  margin-right: 30px;
+}
+
+.m-l5{
+  margin-left: 5px;
+}
+
+.m-l10{
+  margin-left: 10px;
+}
+
+.m-l20{
+  margin-left: 20px;
+}
+
+.m-l30{
+  margin-left: 30px;
+}
