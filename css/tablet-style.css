@@ -9,4 +9,11 @@
       width: 30%;
     }
     /* /FEATURES SECTION */
+
+    /* TESTIMONIALS SECTION */
+    main .testimonial .card{
+      flex-direction: row;
+    }
+    
+    /* /TESTIMONIALS SECTION */
 }

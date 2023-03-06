@@ -38,4 +38,9 @@ header .desktop-nav{
   /* /PLANNING SECTION */
 
   /* TESTIMONIALS SECTION */
+  main .testimonial .title{
+    margin-top: 30px;
+    text-align: center;
+  }
+  
   /* /TESTIMONIALS SECTION */
