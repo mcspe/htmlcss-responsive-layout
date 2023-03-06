@@ -38,6 +38,12 @@ img{
   text-align: center;
 }
 
+/* BOTTONI */
+.btn{
+  font-size: .9rem;
+  border-radius: 15px;
+}
+
 /* DISPLAY FLEX */
 .d-flex{
   display: flex;

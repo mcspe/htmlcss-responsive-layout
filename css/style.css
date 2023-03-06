@@ -1,7 +1,37 @@
 /* HEADER */
-header .desktop-nav{
-  display: none;
-}
+  header{
+    background-color: #0084FD;
+  }
+
+  header .container{
+    height: 75px;
+  }
+
+  header .desktop-nav{
+    display: none;
+  }
+
+  header a{
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+  }
+
+  header a:hover{
+    text-transform: uppercase;
+  }
+
+  header .btn{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+  }
+
+  header .btn:hover{
+    background-color: rgba(255, 255, 255, .9);
+    text-transform: none;
+  }
+/* /HEADER */
 
 
 /* MAIN */
